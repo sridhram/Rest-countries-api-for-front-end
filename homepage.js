@@ -16,11 +16,16 @@ function getData () {
 		console.log(123);
 		for(i=0;i<country.length;i++){
 			if(name.toUpperCase()===country[i].name.toUpperCase()){
-				document.getElementById('name').innerHTML=country[i].name;
-				document.querySelector("#cimg img").src=country[i].flag;
+				let  options=`
+				<p id="cimg"> <img id="img" src="${country[i].flag}" width="50%" height="100%"></p>
+	<p id="ig">Name of the country:<span id ="name">${country[i].name}</span></p>
+	<a id="link" href="secondpage.html">Click to know more</a>`
+	document.getElementById("four").innerHTML=options;
 				break;
 			}
 		}
+		if(i===country.length)
+			alert("Please enter a valid city name");
 		localStorage.setItem('myname',name);
 
 }
