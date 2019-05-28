@@ -1,0 +1,42 @@
+html{
+	margin: 0%;
+	padding: 0; 
+	height: 100%;
+	width: 100%;
+}
+img{
+	height:300%; 
+	width:60%;
+	margin-bottom: 20%;
+}
+body{
+	background-color: lightgray;
+	height: 90%;
+	width: 100%;
+}
+p{
+	margin-top: 1.57%;
+	text-align: left;
+	height: 8%;
+	margin-left: 42%;
+}
+h1{
+	text-align: center;
+}
+#first
+{
+margin-top: 2.57%;	
+}
+a{
+	margin-left: 50%;	
+}
+#name{
+
+		margin-bottom: 5.57%;
+		text-transform: uppercase;
+}
+@media screen and (max-width:680px){
+	#html{
+		width:100%;
+	}
+}

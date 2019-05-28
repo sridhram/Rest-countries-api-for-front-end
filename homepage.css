@@ -1,0 +1,69 @@
+
+#one{
+	margin: 0%;
+	padding: 0%;
+}
+p{
+	font-size: 150%;
+}
+body{
+	width: 100%;
+	height: 100%;
+}
+div{
+}
+#one{
+	text-align: center;
+	height: 10em;
+	background-image: url(download.jpg);
+	background-size:cover;
+	padding: 5.5%;
+}
+#p{
+	margin-left: 0.1em;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	margin-right: 3em;
+	font-size: 2em;
+	color: rgb(0,0,255);
+
+}
+#two{
+	text-align: center;
+	height: 2em;
+	background-color: white;
+}
+#three{
+	padding-left: 33.5%;
+}
+#search{
+	width: 30em;
+}
+#four{
+	padding-left: 36%;
+	padding-right: 10%;
+	text-align: left;
+}
+#cimg{
+	height: 10em;
+}
+#ig{
+	width: 90%;
+}
+#r{
+	display: block;
+	height: 100%;
+	width: 50.7%;
+}
+#text{
+	width: 60%;
+}
+#a{
+	margin-left: 24%;
+    margin-top: 1%;
+}
+@media screen and (max-width:680px){
+	#html{
+		width:100%;
+	}
+}
