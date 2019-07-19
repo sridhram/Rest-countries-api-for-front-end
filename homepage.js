@@ -8,24 +8,23 @@ function getData () {
 		{alert("Please enter the name");
 		return;}
 	
-	fetch('https://restcountries.eu/rest/v2/all')
+	fetch('https://restcountries.eu/rest/v2/all')//For fetching api
 	.then(res=>res.json())
-	.then(data=>initialize(data))
+	.then(data=>initialize(data))//calling initialize function with data fetched
 	.catch(err=>console.log("Error",err));
 	function initialize(country){
-		console.log(123);
 		for(i=0;i<country.length;i++){
 			if(name.toUpperCase()===country[i].name.toUpperCase()){
 				let  options=`
-				<p id="cimg"> <img id="img" src="${country[i].flag}" width="50%" height="100%"></p>
+				<div id="ans"><img id="img" src="${country[i].flag}">
 	<p id="ig">Name of the country:<span id ="name">${country[i].name}</span></p>
-	<a id="link" href="secondpage.html">Click to know more</a>`
+	<p id="link"><a href="secondpage.html">Click to know more</a></div></p>`
 	document.getElementById("four").innerHTML=options;
 				break;
 			}
 		}
 		if(i===country.length)
-			alert("Please enter a valid city name");
+			alert("Please enter a valid country name");
 		localStorage.setItem('myname',name);
 
 }

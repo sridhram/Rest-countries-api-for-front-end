@@ -2,27 +2,27 @@
 <html>
 <head>
 	<title>COUNTRIES</title>
-	<link rel="stylesheet" type="text/css" href="homepage.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="homepage.css"><!--For linking css sheets-->
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"><!--For adjusting device width-->
 </head>
 <body>
 <div id="one">
-	<h2 id="p">Encyclopedia of countries</h2>
+	<h2 id="p">Encyclopedia of countries</h2><!--For header-->
 </div>
 <div id="two">
 	<p>You can search for any country by typing the name of the country in the search bar</p>
 </div>
 <div id="three">
-	<form id="form"> 
-		<div>
-		<input id="text" type="input" placeholder="Enter the name of the country" name="country" ></div>
-		<div><button onclick='getData();return false' id="a">Search</button></div>
+	<form id="form"> <!--For submitting form-->
+		<input id="text" type="input" placeholder="Enter the name of the country" name="country" ><!--Creating text input-->
+		<button onclick='getData();return false' id="a">Search</button><!--Creating search button-->
 	</form>
 </div>
-<div id="four">
+<div id="four"><!--data will be obtained from api-->
 	
 </div>
 </div>
-<script src="homepage.js"></script>
+<script src="homepage.js"></script><!--For linking js-->
 </body>
 </html>

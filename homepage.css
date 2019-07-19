@@ -1,69 +1,57 @@
-
-#one{
-	margin: 0%;
-	padding: 0%;
-}
-p{
-	font-size: 150%;
+body{
+	margin: 0;
+	padding: 0;
 }
 body{
-	width: 100%;
-	height: 100%;
-}
-#img{
-	border-color: white;
+		background: #74ebd5;  /* fallback for old browsers */
+		background: -webkit-linear-gradient(to right, #ACB6E5, #74ebd5);  /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		font-family: 'Playfair Display', serif;
 }
 #one{
+	color: white;
 	text-align: center;
-	height: 10em;
-	background-image: url(download.jpg);
-	background-size:cover;
-	padding: 5.5%;
-}
-#p{
-	margin-left: 0.1em;
-	margin-top: 2em;
-	margin-bottom: 2em;
-	margin-right: 3em;
-	font-size: 2em;
-	color: rgb(0,0,255);
-
+	font-size: 1.5em;
+	width: 100%;
+	padding: 2%;
 }
 #two{
+	padding-bottom: 2%;
 	text-align: center;
-	height: 2em;
-	background-color: white;
+	font-size: 1.5em;
 }
 #three{
-	padding-left: 33.5%;
+	margin: 0 20%;
+    
 }
-#search{
-	width: 30em;
+input{
+	width: 80%;
+
 }
-#four{
-	padding-left: 36%;
-	padding-right: 10%;
-	text-align: left;
+button{
+	width: 18%;
 }
-#cimg{
-	height: 10em;
+#ans{
+	width: 50%;
+	display: inline-block;
+	margin: 0 25%;
+	
+}
+#img{
+	margin: 4% 25%;
+	width: 50%;
+	height: 30%;
 }
 #ig{
-	width: 90%;
+	text-align: center;
+	font-size: 24px;
 }
-#r{
-	display: block;
-	height: 100%;
-	width: 50.7%;
+#link{
+	text-align: center;
+	font-size: 24px;
+
 }
-#text{
-	margin-top: 10%;
-	width: 60%;
-}
-#a{
-	margin-left: 24%;
-    margin-top: 1%;
-}
+#
 @media screen and (max-width:680px){
 	#html{
 		width:100%;
